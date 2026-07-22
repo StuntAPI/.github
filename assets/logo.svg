@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="stunt logo">
+  <!--
+    stunt logo — a "doubled S": two offset block-S marks.
+    The echo (safety-yellow, offset +5/+5) is the "stunt double / stand-in"
+    behind the primary (ink) S. Reads as "S for stunt" + "a double / stand-in".
+    Brand "Rehearsal Grid": safety-yellow #FFD400, ink #0E0E0E, bone #F7F4EC.
+    The S is built from rectangles (a block S) for crisp 16px favicon legibility.
+  -->
+  <title>stunt</title>
+  <defs>
+    <!--
+      Block-S on a 40×40 cell (x:10..50, y:12..52). Stroke width 10, drawn as
+      filled rects forming the classic chunky S:
+        top bar (right-pointing) → diagonal → middle bar → diagonal → bottom bar.
+      Coordinates chosen so horizontal bars and the spine read clearly at 16px.
+    -->
+    <g id="s-mark">
+      <!-- top bar (the top arm of the S), spanning right two-thirds -->
+      <rect x="20" y="12" width="30" height="10" />
+      <!-- upper-left vertical down to the spine -->
+      <rect x="20" y="12" width="10" height="20" />
+      <!-- middle bar -->
+      <rect x="20" y="22" width="24" height="10" />
+      <!-- lower-right vertical down to the bottom bar -->
+      <rect x="34" y="22" width="10" height="20" />
+      <!-- bottom bar (the bottom arm of the S), spanning left two-thirds -->
+      <rect x="14" y="32" width="30" height="10" />
+    </g>
+  </defs>
+
+  <!-- echo / stand-in: offset down-right, safety-yellow (the "double") -->
+  <use href="#s-mark" transform="translate(5,5)" fill="#FFD400" />
+  <!-- primary S: ink -->
+  <use href="#s-mark" fill="#0E0E0E" />
+</svg>
