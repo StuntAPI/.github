@@ -50,12 +50,9 @@ reset clean.
 - **Synthetic, enforced** — `stunt adapter lint` rejects real-looking data (emails, tokens, cards). Everything is fake by construction.
 - **Operable by machines** — `--json` on catalog/plan/doctor, an `AGENTS.md`, and a `stunt llm` reference so coding agents drive it unaided.
 
-## The repos
+## The repo
 
-| Repo | What |
-| --- | --- |
-| [`stunt`](https://github.com/stuntapi/stunt) | The Go tool — the simulator engine, CLI, and 91 embedded adapters. |
-| [`stunt-www`](https://github.com/stuntapi/stunt-www) | The stuntapi.com website (TanStack Start + Cloudflare Pages). |
+- **[`stunt`](https://github.com/stuntapi/stunt)** — the Go tool: the simulator engine, CLI, and 91 embedded adapters.
 
 ## Get involved
 
