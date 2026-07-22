@@ -63,7 +63,7 @@ reset clean.
 ---
 
 <p align="center">
-  <sub>Made in Europe with care by <a href="https://x.com/polyMatto">@polyMatto</a> / <a href="https://github.com/deblasis">@deblasis</a></sub>
+  <sub>Made in Europe with care by <a href="https://x.com/polyMatto">@polyMatto</a> / <a href="https://github.com/deblasis">@deblasis</a> & <a href="https://github.com/stuntapi/stunt/graphs/contributors">contributors</a></sub>
 </p>
 <p align="center">
   <sub>Apache-2.0 · pre-1.0 · the safe stand-in for the real thing</sub>
